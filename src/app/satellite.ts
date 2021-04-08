@@ -15,4 +15,8 @@ export class Satellite {
        return this.type.toLowerCase() === "space debris";
     }
 
+    zebraStripes(array): boolean {
+        return array.indexOf(this) % 2 === 0;
+    }
+
 }
